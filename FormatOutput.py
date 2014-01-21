@@ -14,7 +14,16 @@ f = open('output.csv', 'r+b')
 
 for i in range(numberOfLines):
     line = f.readline()
-    if (line.count(',') == 5):
+    numberOfCommas = line.count(',')
+    while numberOfCommas > 1:
         indexOfComma = line.index(',')
-        line[line.index(',')] = ' '
-        print line
+        tempLine = line[0:indexOfComma] + ' ' + line[indexOfComma+1:]
+        line = tempLine
+        numberOfCommas = line.count(',')
+        f.seek(i)
+        f.write(line)
+
+for i in range(numberOfLines):
+    if numberOfCommas > 1:
+        f.seek(i)
+        print f.readline()

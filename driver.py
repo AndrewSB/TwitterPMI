@@ -2,7 +2,7 @@ __author__ = 'asb'
 
 import main, collections, itertools
 
-PMITerm = 'apple'
+PMITerm = 'orange'
 listOfBGWords = main.GetSortedRelevantTweets(PMITerm)
 
 

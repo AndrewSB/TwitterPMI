@@ -10,20 +10,18 @@ def file_len(fname):
 numberOfLines = int(file_len('output.csv'))
 
 
-f = open('output.csv', 'r+b')
+r = open('output.csv', 'r')
+w = open('formattedOutput.csv', 'w')
+
 
 for i in range(numberOfLines):
-    line = f.readline()
+    line = r.readline()
     numberOfCommas = line.count(',')
     while numberOfCommas > 1:
         indexOfComma = line.index(',')
+        print line
         tempLine = line[0:indexOfComma] + ' ' + line[indexOfComma+1:]
+        print tempLine
         line = tempLine
         numberOfCommas = line.count(',')
-        f.seek(i)
-        f.write(line)
-
-for i in range(numberOfLines):
-    if numberOfCommas > 1:
-        f.seek(i)
-        print f.readline()
+    w.write(line)

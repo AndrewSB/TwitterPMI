@@ -27,8 +27,11 @@ pofx = driver.totalTweets.count(PMITerm)/numberOfWords
 PMIs = []
 for element in panswer:
     if (pofx != 0 and element[2] != 0):
-        PMI = (element[1]/((pofx*element[2])))
-        PMI = math.log(PMI)
+        top = -element[1]*math.log((element[1])/(pofx*element[2]))
+        bottom = element[1]*math.log(element[1])
+        PMI = top/bottom
+        #PMI = (element[1]/((pofx*element[2])))
+        #PMI = math.log(PMI)
     else:
         PMI = 'invalid'
     PMIs.append((element[0], PMI))

@@ -1,0 +1,10 @@
+//prerequisites fread, data.table, ggplot2
+
+library(data.table)
+library(ggplot2)
+
+df = fread(final.csv)
+
+r=c(range(df$apple.pmi),range(df$orange.pmi))
+
+ggplot(df,aes(apple.pmi,orange.pmi,color=factor(apple.pmi>orange.pmi),label=words)) + geom_text(size=5, family="Times New Roman") + theme(panel.grid=element_blank(),legend.position="None", panel.background = element_rect(fill='light grey')) + scale_color_manual(values=c("#FFA500","#FF0800")) + scale_x_continuous(limit=c(min(r),max(r))) + scale_y_continuous(limit=c(min(r),max(r))) + theme_minimal()

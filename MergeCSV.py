@@ -6,5 +6,4 @@ with open('apple.csv', 'rb') as file_a, open('orange.csv', 'rb') as file_b:
     with open('out.csv', 'wb') as file_out:
         csv_out = csv.writer(file_out)
         for word, num_a in data_a:
-            if word in data_b:
-                csv_out.writerow(str(word) + str(num_a) + str(data_b[word]))
+            csv_out.writerow([word, num_a, data_b.get(word, '')])  # <-- edit

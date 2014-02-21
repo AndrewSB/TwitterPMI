@@ -3,7 +3,7 @@
 
 This is a script I threw together for a math IA, inspired by [burrsettles'](https://github.com/burrsettles) article: [On "Geek" Versus "Nerd"](http://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/).
 
-The paper I wrote is available at: *#to be added*
+The paper I wrote is available at: [here](http://www.scribd.com/doc/208343402/Math-IA#fullscreen=1)
 
 ##How the program works     
 

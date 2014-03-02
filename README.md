@@ -1,9 +1,9 @@
 # Twitter PMI		
 - - -        
 
-This is a script I threw together for a math IA, inspired by [burrsettles'](https://github.com/burrsettles) article: [On "Geek" Versus "Nerd"](http://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/).
+This is a script I threw together for a Math Assignment, inspired by [burrsettles'](https://github.com/burrsettles) article: [On "Geek" Versus "Nerd"](http://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/).
 
-The paper I wrote is available at: [here](http://www.scribd.com/doc/208343402/Math-IA#fullscreen=1)
+The paper I wrote is available [here](https://dl.dropboxusercontent.com/s/o3kdgewsc3mhcxn/Math%20IA.pdf?token_hash=AAEgMVUeHUPLO2POwbCje16KizEpQ1JtfISEP806cpQA-A&disable_range=1)
 
 ##How the program works     
 
@@ -11,7 +11,7 @@ The paper I wrote is available at: [here](http://www.scribd.com/doc/208343402/Ma
 You supply a search term and a corpus of tweets and the program returns a csv with the PMI Scores (if you're reading this, I'm assuming you know what [PMI](http://en.wikipedia.org/wiki/PMI) is) based on a twitter data. My data was a directory of text files aquired from [here](http://www.illocutioninc.com/Corpora/). The script then runs PMI on the term and returns it in csv, formatted:      
 `String` | `PMI Score`      
 
-If you're planning to review the code, I'd start with `runall.py` which gives an overview of the project.
+If you're planning to review the code, I'd start with `runall.py` which gives an overview of the project and a 'trigger' that runs the entire package.
  
 
 ###Get a Working CSV (Spreadsheet readable)

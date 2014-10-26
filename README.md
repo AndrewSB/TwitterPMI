@@ -3,7 +3,7 @@
 
 This is a script I threw together for a Math Assignment, inspired by [burrsettles'](https://github.com/burrsettles) article: [On "Geek" Versus "Nerd"](http://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/).
 
-The paper I wrote is available [here](https://dl.dropboxusercontent.com/s/o3kdgewsc3mhcxn/Math%20IA.pdf?token_hash=AAEgMVUeHUPLO2POwbCje16KizEpQ1JtfISEP806cpQA-A&disable_range=1)
+The paper I wrote is available [here](https://github.com/AndrewSB/TwitterPMI/blob/master/paper.pdf?raw=true)
 
 ##How the program works     
 

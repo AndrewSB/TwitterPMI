@@ -3,7 +3,7 @@
 
 This is a script I threw together for a Math Assignment, inspired by [burrsettles'](https://github.com/burrsettles) article: [On "Geek" Versus "Nerd"](http://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/).
 
-The paper I wrote is stored in the repo as `paper.pdf` and is [downloadable](https://github.com/AndrewSB/TwitterPMI/blob/master/paper.pdf?raw=true). You're allowed to use it freely with citations. Also, I'd love to see what you end up making with the research, corpus, or script, so (you don't have to, but I'd love it)  drop me line with a link to what you made after you're done.
+The paper I wrote is stored in the repo as `paper.pdf` and is [downloadable](https://github.com/AndrewSB/TwitterPMI/blob/master/paper.pdf?raw=true). You're allowed to use it freely with citations. If you end up using it somewhere (you don't have to, but I'd love it) drop me line with a link to what you made.
 
 ##How the program works     
 
